@@ -1,0 +1,43 @@
+[M2S06] Ex 1 - SQL
+Identifique visualizando as tabelas em anexo:
+- Quais são as entidades;
+- Quais são os atributos;
+- Qual é a chave primária;
+- Qual é a chave Estrangeira;
+
+
+Resposta
+
+Identifique visualizando as tabelas em anexo:
+
+Quais são as entidades;
+    Conta e Cliente
+
+Quais são os atributos;
+    Conta: id, cliente_id, tipo_id, categoria_id, valor, atualizado_em, cadastrado_em;
+    Cliente: id, nome_completo, primeiro_nome, sobrenome, cpf, data_nascimento, cadastro_em, atualizado_em;
+
+Qual é a chave primária;
+    Cliente: id;
+    Conta: id;
+
+Qual é a chave Estrangeira;
+    Conta: cliente_id, atributo id de cliente
+
+ [M2S06] Ex 3 - SQL
+ Conforme anexo SQL_Modelagem-logica.JPG
+
+
+ [M2S06] Ex 3 - SQL
+ Conceitue
+
+ a) Banco de Dados: Coleção de dados relacionais, organizados, com uma finalidade de uso.
+
+ b) Dado:           Informação passada a uma forma de melhor uso, transmissão e processamento.
+
+ c) Informação:     Fatos observados ou aprendidos, reunidos sobre certo assunto.
+
+ d) SGBD:           Sigla definida por Sistema de Gerenciamento de Banco de Dados Relacionais, o conjunto de requisitos e funcionalidades de um software de armazenamento de dados
+
+[M2S06] Ex 4 - SQL
+Normalização é um conjunto de boas práticas implementadas para melhor funcionamento e desempenho no armazenamento e consumo de dados, evitando anomalias de comando e estruturação de tabelas.

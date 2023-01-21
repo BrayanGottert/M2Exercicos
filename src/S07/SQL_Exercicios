@@ -1,0 +1,43 @@
+[M2S07] Ex 1 - SQL SELECT
+
+SELECT * FROM TabelaB
+ORDER BY nome;
+
+[M2S07] Ex 2 - SQL SELECT
+
+SELECT
+   TabelaA.nome, TabelaB.nome
+FROM
+   Table1 TabelaA
+   LEFT OUTER JOIN
+   Table2 TabelaB ON TabelaA.nome = TabelaB.nome
+UNION
+SELECT
+   TabelaA.nome, TabelaB.nome
+FROM
+   Table1 TabelaA
+      RIGHT OUTER JOIN
+      Table2 TabelaB ON TabelaA.nome = TabelaB.nome
+
+
+[M2S07] Ex 3 - SQL INSERT
+
+INSERT INTO Aluno
+VALUES ('Jose', 'Av Conde', '25');
+
+INSERT INTO Disciplina
+VALUES ('Metodologia Cientifica', '40');
+
+INSERT INTO Professor
+VALUES ('Ana Maria', 'Licenciatura em Pedagogia');
+
+
+INSERT INTO Aluno
+VALUES ('Joao', 'Rua Conde', '251'), ('Maria', 'Av Maua', '205');
+
+INSERT INTO Disciplina
+VALUES ('Metodologia de Pesquisa', '80'), ('Introdução a Computação', '60');
+
+INSERT INTO Professor
+VALUES ('Ana Claudia', 'Licenciatura em Matematica'), ('Maria Antonia', 'Licenciatura em Historia');
+
